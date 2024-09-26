@@ -519,3 +519,5 @@ end
         @test E.vectors*Diagonal(E.values)*E.vectors' ≈ B
     end
 end
+
+include("chainrulestests.jl")
